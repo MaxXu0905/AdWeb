@@ -1,0 +1,124 @@
+/* 大屏幕 */
+@media (min-width: 1200px) {
+	 #header {height:510px;background-size:100%;}
+	 #MyRole {padding-top:5%}
+	 .homePageTitle{font-size:55pt;color:#ffffff;}
+	 .homePageSubTitle{font-size:20pt;color:#ffffff}
+
+}
+
+/**默认**/
+@media (min-width: 980px) and (max-width: 1199px) {
+	 #header {height: 600px;background-size:100%;}
+}
+
+/* 平板 */
+@media (min-width: 768px) and (max-width: 979px) {
+	 #header {height: 450px;background-size:100%;}
+}
+
+/* 平板 */
+@media (max-width: 767px) {
+	 #header {height: 400px;background-size:100%;}
+}
+
+/* 手机 */
+@media (max-width: 480px) {
+	 #header {height: 100px;background-size:100%;}
+	 #MyRole {padding-top:5%}
+	 .homePageTitle{font-size:18pt;color:#ffffff;}
+	 .homePageSubTitle{font-size:10pt;color:#ffffff}
+}
+
+
+ 
+ /* 禁用iPhone中Safari的字号自动调整 */
+/* 设置HTML5元素为块 */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* 设置图片视频等自适应调整 */
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+span.tooltip
+{
+	font-weight:bold;
+}
+
+span.tooltipRed
+{
+	color:red;
+}
+
+.chooseAll
+{
+	list-style-type:none;
+	margin-left:0px;
+	font-size:12px;
+}
+
+li
+{
+	list-style:none;
+}
+
+.floatLeft
+{
+	margin-left:0px;
+	font-size:12px;
+}
+
+.floatLeft li
+{
+	float:left;
+	list-style-type:none;
+	margin-left:0px;
+}
+.floatLeft li span
+{
+	margin-right:5px;
+	margin-left:5px;
+}
+
+.groupBorderTop
+{
+	padding-top:10px;
+	border-top:1px solid #DCDCDC;
+}
+
+/**按钮颜色**/
+.btn {
+	border: none;
+	font-family:微软雅黑;
+	font-size:inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	letter-spacing: inherit;
+	font-weight: 700;
+}
+
+.btn-3 {
+	font-size:20px;
+	letter-spacing: 5px;
+	background: #f58500;
+	color: #000000;
+}
+
+.btn-3:hover {
+	background: #f29e0d;
+}
+
+.btn-3:active {
+	background: #fcad26;
+	top: 2px;
+}
+.btn-3b {
+	padding: 15px 50px 15px 50px;
+	border-radius: 10px;
+}
+

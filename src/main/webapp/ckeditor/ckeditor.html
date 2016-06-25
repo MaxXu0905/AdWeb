@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
+-->
+<html>
+<head>
+	<title>添加活动内容</title>
+	<meta charset="utf-8">
+	<script src="ckeditor.js"></script>
+</head>
+<body>
+	<form></form>
+	<div id="section1" style="margin:auto">
+		
+		</div>
+		<div>
+		<button id="oSubmit" onclick="submitHtml()">确定</button>
+		<button id="oReset" >取消</button>
+		</div>
+		<script>
+
+			// This call can be placed at any point after the
+			// <textarea>, or inside a <head><script> in a
+			// window.onload event handler.
+
+			// Replace the <textarea id="editor"> with an CKEditor
+			// instance, using default configurations.
+			var editor = CKEDITOR.appendTo( 'section1',
+				{width:797,height:440},
+				'<p></p>'
+			);
+			function submitHtml()
+			{
+				var editorValue = CKEDITOR.instances.editor1.getData();
+				
+			}
+		</script>
+	</div>
+</body>
+</html>
